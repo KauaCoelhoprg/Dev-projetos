@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: minha fonte;
+}
+@font-face {
+    font-family: minha fonte;
+    src: url(font/coolvetica\ rg\ it.otf);
+}
+#box-site{
+    width: 95vw;
+    height: 100vh;
+}
+#rodape{
+    background-color: #141414;
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#rodape p {
+    color: whitesmoke;
+
+}
+#rodape h2{
+    color: whitesmoke;
+}
+#rodape a{
+    color: rgb(89, 221, 89);
+}

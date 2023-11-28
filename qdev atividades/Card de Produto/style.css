@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 199, 199); 
+    font-family: minha fonte;
+}
+#anuncio{
+    background-color: white;
+ background-repeat: no-repeat;
+ width: 450px;
+ height: 570px;
+ border-radius: 10px;
+ margin: 25px;
+ color: black;
+ text-align: center;
+font-size: 15px;
+list-style-type: none;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#Produto{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+}
+@font-face {
+    font-family: minha fonte;
+    src: url(font/coolvetica\ rg\ it.otf);
+}

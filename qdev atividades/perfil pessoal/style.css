@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(img/blue-technology-3840x2160.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: minha fonte;
+    color: rgb(14, 17, 26);
+
+}
+@font-face {
+    font-family: minha fonte;
+    src: url(font/coolvetica\ rg.otf)
+}
+#foto{
+    width: 200px;
+    width: 200px;
+    margin: 5px;
+    border: black solid;
+
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color:rgb(4, 8, 53);
+    background-color: rgba(255, 255, 255, 0.336);
+}
+div{
+    font-size: 18px;
+}

@@ -1,0 +1,84 @@
+*{
+    font-family: Quick-sand;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/pre\ cadastro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#c-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 78%;
+    padding: 5px;
+    background: linear-gradient(#0065fdb2,#0098eaaf);
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#box-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 70%;
+
+
+}
+#box-input input{
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px #487fbe;
+
+}
+#box-input input:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1.5s;
+}
+#button-c{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+#button-c input{
+    font-weight: bold;
+    background-color: rgba(13, 77, 151, 0.705);
+    color: whitesmoke;
+    width: 85px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+#button-c button:hover{
+    -webkit-filter: brightness(90%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1.5s;
+}
+@font-face {
+    font-family: Quick-sand;
+    src: url(font/Quicksand-VariableFont_wght.ttf);
+}
+h1{
+    text-align: center;
+}
+#box-logado{
+    background-image: url(img/885184.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
